@@ -2,6 +2,7 @@ package me.study.studyhalle.week4.assignment0;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 
 import static org.mockito.Mockito.*;
@@ -13,5 +14,7 @@ public class MockitoSample {
         when(mockedList.get(0)).thenReturn("first");
         System.out.println(mockedList.get(0));
         System.out.println(mockedList.get(999));
+
+
     }
 }
